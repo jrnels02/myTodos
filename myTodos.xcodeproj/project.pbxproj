@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFCE8FF822EBCC30008E0A26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCE8FF722EBCC30008E0A26 /* AppDelegate.swift */; };
+		EFCE8FFA22EBCC30008E0A26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCE8FF922EBCC30008E0A26 /* ViewController.swift */; };
+		EFCE8FFD22EBCC30008E0A26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCE8FFB22EBCC30008E0A26 /* Main.storyboard */; };
+		EFCE8FFF22EBCC31008E0A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCE8FFE22EBCC31008E0A26 /* Assets.xcassets */; };
+		EFCE900222EBCC31008E0A26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCE900022EBCC31008E0A26 /* LaunchScreen.storyboard */; };
+		EFCE900722EBCC31008E0A26 /* myTodos WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EFCE900622EBCC31008E0A26 /* myTodos WatchKit App.app */; };
+		EFCE900D22EBCC31008E0A26 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCE900B22EBCC31008E0A26 /* Interface.storyboard */; };
+		EFCE900F22EBCC31008E0A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCE900E22EBCC31008E0A26 /* Assets.xcassets */; };
+		EFCE901622EBCC31008E0A26 /* myTodos WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EFCE901522EBCC31008E0A26 /* myTodos WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EFCE901B22EBCC31008E0A26 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCE901A22EBCC31008E0A26 /* InterfaceController.swift */; };
+		EFCE901D22EBCC31008E0A26 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCE901C22EBCC31008E0A26 /* ExtensionDelegate.swift */; };
+		EFCE901F22EBCC31008E0A26 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCE901E22EBCC31008E0A26 /* ComplicationController.swift */; };
+		EFCE902122EBCC32008E0A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCE902022EBCC32008E0A26 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFCE900822EBCC31008E0A26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFCE8FEC22EBCC30008E0A26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFCE900522EBCC31008E0A26;
+			remoteInfo = "myTodos WatchKit App";
+		};
+		EFCE901722EBCC31008E0A26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFCE8FEC22EBCC30008E0A26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFCE901422EBCC31008E0A26;
+			remoteInfo = "myTodos WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EFCE902822EBCC32008E0A26 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EFCE901622EBCC31008E0A26 /* myTodos WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCE902C22EBCC32008E0A26 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EFCE900722EBCC31008E0A26 /* myTodos WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EFCE8FF422EBCC30008E0A26 /* myTodos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myTodos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCE8FF722EBCC30008E0A26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFCE8FF922EBCC30008E0A26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFCE8FFC22EBCC30008E0A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFCE8FFE22EBCC31008E0A26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFCE900122EBCC31008E0A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFCE900322EBCC31008E0A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFCE900622EBCC31008E0A26 /* myTodos WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "myTodos WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCE900C22EBCC31008E0A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		EFCE900E22EBCC31008E0A26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFCE901022EBCC31008E0A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFCE901522EBCC31008E0A26 /* myTodos WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "myTodos WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCE901A22EBCC31008E0A26 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		EFCE901C22EBCC31008E0A26 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		EFCE901E22EBCC31008E0A26 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		EFCE902022EBCC32008E0A26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFCE902222EBCC32008E0A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFCE8FF122EBCC30008E0A26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCE901222EBCC31008E0A26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFCE8FEB22EBCC30008E0A26 = {
+			isa = PBXGroup;
+			children = (
+				EFCE8FF622EBCC30008E0A26 /* myTodos */,
+				EFCE900A22EBCC31008E0A26 /* myTodos WatchKit App */,
+				EFCE901922EBCC31008E0A26 /* myTodos WatchKit Extension */,
+				EFCE8FF522EBCC30008E0A26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFCE8FF522EBCC30008E0A26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFCE8FF422EBCC30008E0A26 /* myTodos.app */,
+				EFCE900622EBCC31008E0A26 /* myTodos WatchKit App.app */,
+				EFCE901522EBCC31008E0A26 /* myTodos WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFCE8FF622EBCC30008E0A26 /* myTodos */ = {
+			isa = PBXGroup;
+			children = (
+				EFCE8FF722EBCC30008E0A26 /* AppDelegate.swift */,
+				EFCE8FF922EBCC30008E0A26 /* ViewController.swift */,
+				EFCE8FFB22EBCC30008E0A26 /* Main.storyboard */,
+				EFCE8FFE22EBCC31008E0A26 /* Assets.xcassets */,
+				EFCE900022EBCC31008E0A26 /* LaunchScreen.storyboard */,
+				EFCE900322EBCC31008E0A26 /* Info.plist */,
+			);
+			path = myTodos;
+			sourceTree = "<group>";
+		};
+		EFCE900A22EBCC31008E0A26 /* myTodos WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				EFCE900B22EBCC31008E0A26 /* Interface.storyboard */,
+				EFCE900E22EBCC31008E0A26 /* Assets.xcassets */,
+				EFCE901022EBCC31008E0A26 /* Info.plist */,
+			);
+			path = "myTodos WatchKit App";
+			sourceTree = "<group>";
+		};
+		EFCE901922EBCC31008E0A26 /* myTodos WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EFCE901A22EBCC31008E0A26 /* InterfaceController.swift */,
+				EFCE901C22EBCC31008E0A26 /* ExtensionDelegate.swift */,
+				EFCE901E22EBCC31008E0A26 /* ComplicationController.swift */,
+				EFCE902022EBCC32008E0A26 /* Assets.xcassets */,
+				EFCE902222EBCC32008E0A26 /* Info.plist */,
+			);
+			path = "myTodos WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFCE8FF322EBCC30008E0A26 /* myTodos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFCE902D22EBCC32008E0A26 /* Build configuration list for PBXNativeTarget "myTodos" */;
+			buildPhases = (
+				EFCE8FF022EBCC30008E0A26 /* Sources */,
+				EFCE8FF122EBCC30008E0A26 /* Frameworks */,
+				EFCE8FF222EBCC30008E0A26 /* Resources */,
+				EFCE902C22EBCC32008E0A26 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFCE900922EBCC31008E0A26 /* PBXTargetDependency */,
+			);
+			name = myTodos;
+			productName = myTodos;
+			productReference = EFCE8FF422EBCC30008E0A26 /* myTodos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFCE900522EBCC31008E0A26 /* myTodos WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFCE902922EBCC32008E0A26 /* Build configuration list for PBXNativeTarget "myTodos WatchKit App" */;
+			buildPhases = (
+				EFCE900422EBCC31008E0A26 /* Resources */,
+				EFCE902822EBCC32008E0A26 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFCE901822EBCC31008E0A26 /* PBXTargetDependency */,
+			);
+			name = "myTodos WatchKit App";
+			productName = "myTodos WatchKit App";
+			productReference = EFCE900622EBCC31008E0A26 /* myTodos WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		EFCE901422EBCC31008E0A26 /* myTodos WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFCE902522EBCC32008E0A26 /* Build configuration list for PBXNativeTarget "myTodos WatchKit Extension" */;
+			buildPhases = (
+				EFCE901122EBCC31008E0A26 /* Sources */,
+				EFCE901222EBCC31008E0A26 /* Frameworks */,
+				EFCE901322EBCC31008E0A26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "myTodos WatchKit Extension";
+			productName = "myTodos WatchKit Extension";
+			productReference = EFCE901522EBCC31008E0A26 /* myTodos WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFCE8FEC22EBCC30008E0A26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Jrnels02;
+				TargetAttributes = {
+					EFCE8FF322EBCC30008E0A26 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					EFCE900522EBCC31008E0A26 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					EFCE901422EBCC31008E0A26 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = EFCE8FEF22EBCC30008E0A26 /* Build configuration list for PBXProject "myTodos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFCE8FEB22EBCC30008E0A26;
+			productRefGroup = EFCE8FF522EBCC30008E0A26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFCE8FF322EBCC30008E0A26 /* myTodos */,
+				EFCE900522EBCC31008E0A26 /* myTodos WatchKit App */,
+				EFCE901422EBCC31008E0A26 /* myTodos WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFCE8FF222EBCC30008E0A26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCE900222EBCC31008E0A26 /* LaunchScreen.storyboard in Resources */,
+				EFCE8FFF22EBCC31008E0A26 /* Assets.xcassets in Resources */,
+				EFCE8FFD22EBCC30008E0A26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCE900422EBCC31008E0A26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCE900F22EBCC31008E0A26 /* Assets.xcassets in Resources */,
+				EFCE900D22EBCC31008E0A26 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCE901322EBCC31008E0A26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCE902122EBCC32008E0A26 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFCE8FF022EBCC30008E0A26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCE8FFA22EBCC30008E0A26 /* ViewController.swift in Sources */,
+				EFCE8FF822EBCC30008E0A26 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCE901122EBCC31008E0A26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCE901D22EBCC31008E0A26 /* ExtensionDelegate.swift in Sources */,
+				EFCE901B22EBCC31008E0A26 /* InterfaceController.swift in Sources */,
+				EFCE901F22EBCC31008E0A26 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFCE900922EBCC31008E0A26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFCE900522EBCC31008E0A26 /* myTodos WatchKit App */;
+			targetProxy = EFCE900822EBCC31008E0A26 /* PBXContainerItemProxy */;
+		};
+		EFCE901822EBCC31008E0A26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFCE901422EBCC31008E0A26 /* myTodos WatchKit Extension */;
+			targetProxy = EFCE901722EBCC31008E0A26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFCE8FFB22EBCC30008E0A26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFCE8FFC22EBCC30008E0A26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFCE900022EBCC31008E0A26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFCE900122EBCC31008E0A26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EFCE900B22EBCC31008E0A26 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFCE900C22EBCC31008E0A26 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFCE902322EBCC32008E0A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFCE902422EBCC32008E0A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFCE902622EBCC32008E0A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWLX6BZ2SW;
+				INFOPLIST_FILE = "myTodos WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpleapps.myTodos.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Debug;
+		};
+		EFCE902722EBCC32008E0A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWLX6BZ2SW;
+				INFOPLIST_FILE = "myTodos WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpleapps.myTodos.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Release;
+		};
+		EFCE902A22EBCC32008E0A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWLX6BZ2SW;
+				IBSC_MODULE = myTodos_WatchKit_Extension;
+				INFOPLIST_FILE = "myTodos WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpleapps.myTodos.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Debug;
+		};
+		EFCE902B22EBCC32008E0A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWLX6BZ2SW;
+				IBSC_MODULE = myTodos_WatchKit_Extension;
+				INFOPLIST_FILE = "myTodos WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpleapps.myTodos.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Release;
+		};
+		EFCE902E22EBCC32008E0A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWLX6BZ2SW;
+				INFOPLIST_FILE = myTodos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpleapps.myTodos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFCE902F22EBCC32008E0A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWLX6BZ2SW;
+				INFOPLIST_FILE = myTodos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpleapps.myTodos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFCE8FEF22EBCC30008E0A26 /* Build configuration list for PBXProject "myTodos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCE902322EBCC32008E0A26 /* Debug */,
+				EFCE902422EBCC32008E0A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFCE902522EBCC32008E0A26 /* Build configuration list for PBXNativeTarget "myTodos WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCE902622EBCC32008E0A26 /* Debug */,
+				EFCE902722EBCC32008E0A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFCE902922EBCC32008E0A26 /* Build configuration list for PBXNativeTarget "myTodos WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCE902A22EBCC32008E0A26 /* Debug */,
+				EFCE902B22EBCC32008E0A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFCE902D22EBCC32008E0A26 /* Build configuration list for PBXNativeTarget "myTodos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCE902E22EBCC32008E0A26 /* Debug */,
+				EFCE902F22EBCC32008E0A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFCE8FEC22EBCC30008E0A26 /* Project object */;
+}
